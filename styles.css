@@ -172,3 +172,25 @@ select {
     height: 10px;
     background-color: #0096FF;
 }
+
+.disclaimer{
+    margin: 0 auto;
+    text-align: justify;
+    max-width: 70vw;
+    line-height: 1.5;
+}
+
+.disclaimer h1{
+    margin-top: 3rem;
+    font-size:4rem;
+}
+
+.disclaimer h2{
+    margin-top:2rem;
+    font-size:2rem;
+}
+
+.disclaimer p{
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
