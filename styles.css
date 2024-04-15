@@ -39,7 +39,7 @@ section {
     font-size: 1.5em;
 }
 
-.hero button{
+.hero button {
     font-size: 1.5rem;
     padding: 1rem;
     margin-top: 2rem;
@@ -80,4 +80,95 @@ section {
     height: auto;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#infoForm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 50vw;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#infoForm h2 {
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+
+#prevBtnContainer {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+
+#infoForm button {
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    transition: scale 0.3s;
+}
+
+#infoForm button:hover {
+    scale: 1.05;
+}
+
+#infoForm #prevBtn {
+    color: blue;
+    background: transparent;
+    border: none;
+}
+
+#infoForm input[type="text"],
+#infoForm input[type="number"],
+#infoForm input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#infoForm input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#infoForm input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#infoForm .step {
+    width: 35vw;
+    margin: 0 auto;
+}
+
+.progress-container {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.progress-bar {
+    width: 0%;
+    height: 10px;
+    background-color: #0096FF;
 }
